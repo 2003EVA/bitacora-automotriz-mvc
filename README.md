@@ -16,7 +16,7 @@ El sistema fue construido aplicando principios de **Programación Orientada a Ob
 * **Vista (`app/views/`):** Construida con la librería externa `rich`, se encarga exclusivamente de mostrar menús coloridos y capturar la información del teclado. Es "ciega" a las reglas de negocio.
 * **Controlador (`app/controllers/`):** Orquesta la aplicación. Recibe los datos capturados por la Vista, los envía al Modelo para su validación/almacenamiento, y captura los errores del Modelo para pedirle a la Vista que muestre las alertas correspondientes.
 
-⚙️ Instalación y Ejecución
+## ⚙️ Instalación y Ejecución
 Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 1. Clona este repositorio:
@@ -28,10 +28,11 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 3. Ejecuta la aplicación:
     python main.py
 
-🧪 Pruebas Automatizadas
-El proyecto utiliza pytest para garantizar la estabilidad del Modelo mediante el enfoque TDD (Test-Driven Development). Se incluyen pruebas válidas (creación y sumas) y pruebas inválidas (manejo de errores ante datos corruptos).
+## 🧪 Pruebas Automatizadas
+* El proyecto utiliza pytest para garantizar la estabilidad del Modelo mediante el enfoque TDD (Test-Driven Development).
+* Se incluyen pruebas válidas (creación y sumas) y pruebas inválidas (manejo de errores ante datos corruptos).
 
-Para correr los tests, ejecuta en la terminal:
+* Para correr los tests, ejecuta en la terminal:
 pytest
 
 ## 📊 Diagrama de Clases
