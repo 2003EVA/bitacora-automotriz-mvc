@@ -17,7 +17,14 @@ El sistema fue construido aplicando principios de **Programación Orientada a Ob
 * **Controlador (`app/controllers/`):** Orquesta la aplicación. Recibe los datos capturados por la Vista, los envía al Modelo para su validación/almacenamiento, y captura los errores del Modelo para pedirle a la Vista que muestre las alertas correspondientes.
 
 ## ⚙️ Instalación y Ejecución
-Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+
+Para garantizar la portabilidad y el correcto funcionamiento del software en cualquier entorno, se han seguido estándares de desarrollo modular:
+
+* **Compatibilidad:** El sistema es compatible con Windows, macOS y Linux (requiere Python 3.x).
+* **Gestión de Dependencias:** El proyecto utiliza pip. Se incluye un archivo requirements.txt con las librerías necesarias (rich y pytest).
+* **Recomendación de Entorno (Best Practice):** Se recomienda ejecutar el proyecto dentro de un Entorno Virtual (venv) para aislar las dependencias.
+
+### Pasos para ejecutar el proyecto en tu entorno local:
 
 1. Clona este repositorio:
     git clone <https://github.com/itohdez/bitacora-automotriz-mvc.git>
