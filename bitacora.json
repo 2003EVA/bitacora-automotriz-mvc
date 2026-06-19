@@ -1,1 +1,9 @@
-{}
+{
+    "QHP510": {
+        "placa": "QHP510",
+        "marca": "NISSAN",
+        "kilometraje_actual": 85000,
+        "tipo": "Auto",
+        "historial_servicios": []
+    }
+}
