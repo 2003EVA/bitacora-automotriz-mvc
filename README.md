@@ -16,6 +16,23 @@ El sistema fue construido aplicando principios de **Programación Orientada a Ob
 * **Vista (`app/views/`):** Construida con la librería externa `rich`, se encarga exclusivamente de mostrar menús coloridos y capturar la información del teclado. Es "ciega" a las reglas de negocio.
 * **Controlador (`app/controllers/`):** Orquesta la aplicación. Recibe los datos capturados por la Vista, los envía al Modelo para su validación/almacenamiento, y captura los errores del Modelo para pedirle a la Vista que muestre las alertas correspondientes.
 
+## 📋 Prerrequisitos
+
+Para ejecutar, es necesario tener instalado el lenguaje de programación Python en tu equipo.
+
+1. **Descarga de Python:**
+   * Ve al sitio web oficial: [python.org/downloads](https://www.python.org/downloads/)
+   * Descarga la última versión estable para tu sistema operativo (Windows, macOS o Linux).
+
+2. **Instalación (Importante):**
+   * **En Windows:** Durante la instalación, **asegúrate de marcar la casilla que dice "Add Python to PATH"**. Este paso es crítico, ya que permite que la terminal reconozca el comando `python`.
+   * **En macOS/Linux:** Generalmente, Python ya viene instalado o se gestiona a través del gestor de paquetes de tu distribución.
+
+3. **Verificación:**
+   Para confirmar que Python se instaló correctamente, abre una terminal y escribe:
+   ```bash
+   python --version
+
 ## ⚙️ Instalación y Ejecución
 
 Para garantizar la portabilidad y el correcto funcionamiento del software en cualquier entorno, se han seguido estándares de desarrollo modular:
@@ -29,10 +46,13 @@ Para garantizar la portabilidad y el correcto funcionamiento del software en cua
 1. Clona este repositorio:
     git clone <https://github.com/itohdez/bitacora-automotriz-mvc.git>
 
-2. Instala las dependencias necesarias:
-    pip install -r requirements.txt
+2. Entra en la carpeta del proyecto:
+    cd bitacora-automotriz-mvc
 
-3. Ejecuta la aplicación:
+3. Instala las dependencias necesarias:
+    python -m pip install -r requirements.txt
+
+4. Ejecuta la aplicación:
     python main.py
 
 ## 🧪 Pruebas Automatizadas
