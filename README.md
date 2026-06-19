@@ -46,3 +46,21 @@ classDiagram
     
     GestorBitacora "1" --> "*" Vehiculo : Administra
     Vehiculo "1" --> "*" Servicio : Contiene
+
+⚙️ Instalación y Ejecución
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+
+1. Clona este repositorio:
+    git clone <https://github.com/itohdez/bitacora-automotriz-mvc.git>
+
+2. Instala las dependencias necesarias:
+    pip install -r requirements.txt
+
+3. Ejecuta la aplicación:
+    python main.py
+
+🧪 Pruebas Automatizadas
+El proyecto utiliza pytest para garantizar la estabilidad del Modelo mediante el enfoque TDD (Test-Driven Development). Se incluyen pruebas válidas (creación y sumas) y pruebas inválidas (manejo de errores ante datos corruptos).
+
+Para correr los tests, ejecuta en la terminal:
+pytest
