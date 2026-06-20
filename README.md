@@ -242,5 +242,3 @@ Estado del control de versiones en la plataforma web con la estructura final de 
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia **MIT** - consulte el archivo de licencias del repositorio para más detalles.
-
-```
