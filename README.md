@@ -1,8 +1,41 @@
 # 🚗 Sistema de Bitácora Automotriz 🏍️
 
-Este proyecto es una aplicación de escritorio desarrollada en Python que permite a los usuarios (particulares o talleres mecánicos) llevar un registro detallado y organized de los mantenimientos, gastos y el historial de servicios de sus vehículos (Autos y Motos).
+Este proyecto es una aplicación de escritorio desarrollada en Python que permite a los usuarios (particulares o talleres mecánicos) llevar un registro detallado y organizado de los mantenimientos, gastos y el historial de servicios de sus vehículos (Autos y Motos).
 
 > **Tecnologías clave:** Python 3.x, CustomTkinter, JSON (persistencia de datos), CSV (generación de reportes).
+
+---
+
+## 🏗️ Descripción
+
+En los entornos cotidianos y en pequeños talleres mecánicos, el control de los mantenimientos vehiculares suele realizarse mediante formatos físicos en papel o herramientas desorganizadas, lo que introduce un alto riesgo de pérdida de datos, falta de trazabilidad histórica y omisión de revisiones críticas. 
+
+Este software resuelve dicha problemática centralizando la gestión operativa en una aplicación de escritorio intuitiva que automatiza los cálculos financieros de los mantenimientos, previene omisiones de servicios esenciales y mitiga riesgos de seguridad al controlar estrictamente que las variaciones del kilometraje sigan un orden cronológico y secuencial lógico.
+
+---
+
+## 🎯 Objetivo
+
+Diseñar e implementar una solución tecnológica de escritorio robusta bajo el paradigma de Programación Orientada a Objetos y la arquitectura MVC, que permita sistematizar la administración, registro y consulta del historial de servicios automotrices, garantizando la persistencia e integridad de los datos financieros y cinemáticos de los vehículos.
+
+---
+
+## 🚀 Características principales
+
+* **Gestión Centralizada Multi-Vehículo:** Registro y control detallado de múltiples unidades automotrices (Autos y Motos) mediante identificadores únicos basados en su placa vehicular.
+* **Consolidación Financiera Automática:** Cálculo en tiempo real del costo monetario total invertido por cada vehículo en base a la sumatoria indexada de su histórico de mantenimiento.
+* **Restricción Cinemática Estricta:** Mecanismos lógicos de control que impiden anomalías operativas, validando que el kilometraje de un nuevo servicio sea consistente y secuencial con el estado actual del vehículo.
+* **Exportación de Reportes en CSV:** Subsistema integrado que permite migrar las bitácoras estructuradas a formatos de hoja de cálculo estándar para la realización de análisis o auditorías externas.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* **Python:** Lenguaje de programación core para el desarrollo de la lógica de negocio y POO.
+* **CustomTkinter:** Interfaz gráfica avanzada para la experiencia de usuario con soporte nativo de modo oscuro y claro.
+* **JSON:** Mecanismo liviano de persistencia mediante archivos planos estructurados para salvar datos de forma local.
+* **pytest:** Framework de automatización para la ejecución de pruebas unitarias y el aseguramiento de la calidad (QA).
+* **GitHub:** Plataforma de control de versiones distribuida para el trabajo colaborativo del equipo.
 
 ---
 
@@ -65,12 +98,11 @@ Para ejecutar el sistema, es necesario tener instalado el lenguaje de programaci
 
 3. **Verificación:**
 Para confirmar que Python se configuró correctamente en tu entorno global, abre una terminal y ejecuta:
+
 ```bash
-python --version
+   python --version
 
 ```
-
-
 
 ---
 
@@ -85,33 +117,32 @@ Para garantizar la portabilidad y el correcto funcionamiento del software en cua
 ### Pasos secuenciales para ejecutar el proyecto:
 
 1. Clona este repositorio en tu computador:
+
 ```bash
-git clone https://github.com/2003EVA/bitacora-automotriz-mvc.git
+   git clone [https://github.com/2003EVA/bitacora-automotriz-mvc.git](https://github.com/2003EVA/bitacora-automotriz-mvc.git)
 
 ```
-
 
 2. Entra en la carpeta raíz del proyecto:
+
 ```bash
-cd bitacora-automotriz-mvc
+   cd bitacora-automotriz-mvc
 
 ```
-
 
 3. Instala las dependencias necesarias de manera automática:
+
 ```bash
-python -m pip install -r requirements.txt
+   python -m pip install -r requirements.txt
 
 ```
-
 
 4. Ejecuta la aplicación:
+
 ```bash
-python main.py
+   python main.py
 
 ```
-
-
 
 ---
 
@@ -175,32 +206,41 @@ classDiagram
 
 ---
 
-## 📸 Vista Previa de la Aplicación y Evidencias
+## 📸 Capturas de pantalla
 
 ### 1. Interfaz Gráfica y Menú Principal
-
 Muestra el diseño visual del sistema en modo oscuro desarrollado con CustomTkinter.
-
+![Menú Principal](docs/capturas/menu_principal.png)
 
 ### 2. Funcionalidad y Registro
-
 Evidencia del comportamiento del programa al interactuar y registrar datos en los formularios.
-
+![Registro de Mantenimiento](docs/capturas/funcionalidad_registro.png)
 
 ### 3. Persistencia de Datos (Formato JSON)
-
 Confirmación de que los registros se salvan de forma permanente en el archivo local.
-
+![Archivo JSON](docs/capturas/evidencia_datos.png)
 
 ### 4. Reporte de Pruebas Unitarias Exitosas (Pytest)
-
 Reporte exitoso de la terminal de QA tras la ejecución del comando de pruebas.
-
+![Pytest Verde](docs/capturas/pruebas_pytest.png)
 
 ### 5. Repositorio en GitHub
-
 Estado del control de versiones en la plataforma web con la estructura final de carpetas.
+![Repositorio de GitHub](docs/capturas/repositorio_github.png)
 
+---
+
+## 👥 Integrantes
+
+* **Eva Miranda**
+* **Andrés Hernández**
+* **Andrés Novoa**
+* **Luis Cantillo**
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia **MIT** - consulte el archivo de licencias del repositorio para más detalles.
 
 ```
-
