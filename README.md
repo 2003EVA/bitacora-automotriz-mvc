@@ -1,10 +1,3 @@
-Aquí tienes el archivo **`README.md`** completo y listo para que lo copies de un solo golpe.
-
-He revisado minuciosamente que las rutas de las imágenes apunten exactamente a tu carpeta **`docs/capturas/`** (tal cual como vimos que la tenías estructurada en tu computador en la foto de VS Code). También me aseguré de que el enlace de clonación apunte a **tu propio usuario de GitHub (`2003EVA`)**.
-
-Copia todo este bloque de código y pégalo en tu archivo `README.md` de Visual Studio Code:
-
-```markdown
 # 🚗 Sistema de Bitácora Automotriz 🏍️
 
 Este proyecto es una aplicación de escritorio desarrollada en Python que permite a los usuarios (particulares o talleres mecánicos) llevar un registro detallado y organizado de los mantenimientos, gastos y el historial de servicios de sus vehículos (Autos y Motos).
