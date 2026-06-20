@@ -32,6 +32,12 @@ class BitacoraController:
         if not v: self.vista.mostrar_mensaje("No encontrado.", False)
         else: self.vista.mostrar_mensaje("\n".join([str(s) for s in v.historial_servicios]) or "Sin servicios.")
 
-    def abrir_selector_eliminacion(self): self.vista.solicitar_eliminacion_con_lista(list(self.gestor.vehiculos.keys()), self.eliminar_vehiculo)
+    def abrir_selector_eliminacion(self): 
+        placas = list(self.gestor.vehiculos.keys())
+        if not placas:
+            self.vista.mostrar_mensaje("No hay vehículos registrados para eliminar.", False)
+            return
+        self.vista.solicitar_eliminacion_con_lista(placas, self.eliminar_vehiculo)
+        
     def eliminar_vehiculo(self, d):
         if self.gestor.eliminar_vehiculo(d["placa"]): self.vista.mostrar_mensaje("Eliminado.")

@@ -38,8 +38,9 @@ class GraficaView:
     def _abrir_calendario(self, entry_widget):
         top = tk.Toplevel(self.root)
         top.title("Seleccionar Fecha")
+        top.grab_set() # Asegura que el calendario tome el foco sin superposiciones problemáticas
         cal = DateEntry(top, date_pattern='dd/mm/yyyy')
-        cal.pack(pady=20)
+        cal.pack(pady=20, padx=20)
         
         def aplicar():
             entry_widget.delete(0, 'end')
@@ -51,7 +52,7 @@ class GraficaView:
         top = ctk.CTkToplevel(self.root)
         top.title(titulo)
         top.geometry("350x450")
-        top.attributes("-topmost", True)
+        top.grab_set() # Bloquea la interacción con el fondo sin forzar el ocultamiento de otras ventanas (Reemplaza a topmost)
         
         entries = {}
         # Título del formulario
@@ -94,6 +95,7 @@ class GraficaView:
     def solicitar_eliminacion_con_lista(self, placas, callback):
         top = ctk.CTkToplevel(self.root)
         top.geometry("300x200")
+        top.grab_set()
         var = ctk.StringVar(value=placas[0])
         ctk.CTkOptionMenu(top, variable=var, values=placas).pack(pady=20)
         ctk.CTkButton(top, text="Eliminar", fg_color="red", command=lambda: [callback({"placa": var.get()}), top.destroy()]).pack()
