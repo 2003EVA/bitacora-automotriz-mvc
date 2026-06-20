@@ -1,6 +1,6 @@
 # 🚗 Sistema de Bitácora Automotriz 🏍️
 
-Este proyecto es una aplicación de escritorio desarrollada en Python que permite a los usuarios (particulares o talleres mecánicos) llevar un registro detallado y organizado de los mantenimientos, gastos y el historial de servicios de sus vehículos (Autos y Motos).
+Este proyecto es una aplicación de escritorio desarrollada en Python que permite a los usuarios (particulares o talleres mecánicos) llevar un registro detallado y organized de los mantenimientos, gastos y el historial de servicios de sus vehículos (Autos y Motos).
 
 > **Tecnologías clave:** Python 3.x, CustomTkinter, JSON (persistencia de datos), CSV (generación de reportes).
 
@@ -24,31 +24,27 @@ El sistema fue construido aplicando principios de **Programación Orientada a Ob
 
 ## 📂 Estructura del Proyecto
 
-El árbol de directorios del espacio de trabajo está segmentado bajo estándares de modularidad:
+La organización modular del espacio de trabajo está segmentada de la siguiente manera:
 
-```text
+```yaml
 bitacora-automotriz-mvc/
-│
-├── app/                        # Código fuente principal del sistema (Capa MVC)
-│   ├── controllers/            # Controladores (Intermediarios lógicos)
+├── app/                  # Código fuente principal (Capa MVC)
+│   ├── controllers/      # Controladores e intermediarios lógicos
 │   │   └── bitacora_controller.py
-│   ├── models/                 # Modelos (Entidades de negocio y lógica core)
+│   ├── models/           # Entidades de negocio y lógica core
 │   │   ├── gestor.py
 │   │   ├── servicio.py
 │   │   └── vehiculo.py
-│   └── views/                  # Vistas (Interfaz Gráfica de Usuario - GUI)
+│   └── views/            # Interfaz Gráfica de Usuario (GUI)
 │       └── grafica_view.py
-│
-├── docs/                       # Documentación técnica e informes del proyecto
-│   ├── capturas/               # Banco de evidencias visuales de QA y UI
-│   └── proceso_desarrollo.md   # Informe del proceso formal de desarrollo
-│
-├── tests/                      # Suite de pruebas unitarias automatizadas
+├── docs/                 # Documentación e informes del proyecto
+│   ├── capturas/         # Banco de evidencias de QA y UI
+│   └── proceso_desarrollo.md
+├── tests/                # Suite de pruebas unitarias automatizadas
 │   └── test_modelos.py
-│
-├── bitacora.json               # Persistencia de datos local estructurada en JSON
-├── main.py                     # Punto de entrada principal de la aplicación (Entrypoint)
-└── requirements.txt            # Declaración estricta de dependencias externas
+├── bitacora.json         # Archivo local de persistencia estructurada
+├── main.py               # Punto de entrada de la aplicación
+└── requirements.txt      # Declaración de dependencias del entorno
 
 ```
 
@@ -78,7 +74,7 @@ python --version
 
 ---
 
-## ⚙️ Instalación y Execución
+## ⚙️ Instalación y Ejecución
 
 Para garantizar la portabilidad y el correcto funcionamiento del software en cualquier entorno local, se han seguido estándares de desarrollo modular:
 
@@ -90,7 +86,7 @@ Para garantizar la portabilidad y el correcto funcionamiento del software en cua
 
 1. Clona este repositorio en tu computador:
 ```bash
-git clone [https://github.com/2003EVA/bitacora-automotriz-mvc.git](https://github.com/2003EVA/bitacora-automotriz-mvc.git)
+git clone https://github.com/2003EVA/bitacora-automotriz-mvc.git
 
 ```
 
@@ -206,4 +202,5 @@ Reporte exitoso de la terminal de QA tras la ejecución del comando de pruebas.
 Estado del control de versiones en la plataforma web con la estructura final de carpetas.
 
 
+```
 
