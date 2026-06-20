@@ -33,5 +33,12 @@
         "tipo": "Auto",
         "kilometraje_actual": 98000,
         "historial_servicios": []
+    },
+    "IYS14G": {
+        "placa": "IYS14G",
+        "marca": "AKT",
+        "tipo": "Moto",
+        "kilometraje_actual": 51000,
+        "historial_servicios": []
     }
 }
