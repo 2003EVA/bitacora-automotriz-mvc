@@ -119,7 +119,7 @@ Para garantizar la portabilidad y el correcto funcionamiento del software en cua
 1. Clona este repositorio en tu computador:
 
 ```bash
-   git clone [https://github.com/2003EVA/bitacora-automotriz-mvc.git](https://github.com/2003EVA/bitacora-automotriz-mvc.git)
+   git clone https://github.com/2003EVA/bitacora-automotriz-mvc
 
 ```
 
