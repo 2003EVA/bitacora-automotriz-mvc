@@ -34,11 +34,25 @@
         "kilometraje_actual": 98000,
         "historial_servicios": []
     },
-    "IYS14G": {
-        "placa": "IYS14G",
-        "marca": "AKT",
+    "SCV234": {
+        "placa": "SCV234",
+        "marca": "chevrolet",
+        "tipo": "Auto",
+        "kilometraje_actual": 3000,
+        "historial_servicios": [
+            {
+                "fecha": "19/06/2026",
+                "descripcion": "Cambio de Aceite",
+                "costo": 350000.0,
+                "kilometraje_servicio": 3000
+            }
+        ]
+    },
+    "XYZ98M": {
+        "placa": "XYZ98M",
+        "marca": "Yamaha",
         "tipo": "Moto",
-        "kilometraje_actual": 51000,
+        "kilometraje_actual": 10000,
         "historial_servicios": []
     }
 }
